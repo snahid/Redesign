@@ -7,7 +7,7 @@
   left: 0;
   right: 0;
   top: 0;
-  background-color: #007ACC;
+  background-color: #ffffff;
   box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
   z-index: 999;
   transition: 0.7s ease;
@@ -29,10 +29,11 @@
   }
 }
 .mynavbar .container .collapse .nav-item .nav-link, .mynavbar .container .collapsing .nav-item .nav-link {
-  color: #ffffff;
+  font-size: 15px;
+  color: #69707A;
   user-select: none;
   transition: 0.5s ease;
-  font-weight: 400;
+  font-weight: 500;
 }
 .mynavbar .container .collapse .nav-item .nav-link:hover, .mynavbar .container .collapsing .nav-item .nav-link:hover {
   opacity: 0.7;
@@ -62,15 +63,17 @@
 }
 
 .myfooter {
-  background-color: #138496;
+  border-top: 1px solid #D0D5DC;
+  background-color: transparent;
   text-align: center;
-  padding: 15px 0;
+  padding: 25px 0;
   margin-top: 30px;
 }
 .myfooter .footer-inner p {
   margin: 0;
-  color: #ffffff;
+  color: #69707A;
   font-size: 14px;
+  font-weight: 500;
 }
 
 html,
