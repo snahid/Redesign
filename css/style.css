@@ -23,6 +23,11 @@
 .mynavbar .container .collapse .nav-item, .mynavbar .container .collapsing .nav-item {
   padding-right: 25px;
 }
+@media (max-width: 991px) {
+  .mynavbar .container .collapse .nav-item, .mynavbar .container .collapsing .nav-item {
+    padding-right: 0;
+  }
+}
 .mynavbar .container .collapse .nav-item .nav-link, .mynavbar .container .collapsing .nav-item .nav-link {
   color: #ffffff;
   user-select: none;
@@ -80,6 +85,7 @@ body {
 
 .main-content {
   margin-top: 100px;
+  overflow: hidden;
 }
 @media (max-width: 767px) {
   .main-content {

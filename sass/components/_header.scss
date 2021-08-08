@@ -26,6 +26,10 @@
             .collapse, .collapsing{
                 .nav-item{
                     padding-right: 25px;
+
+                    @media(max-width: 991px){
+                        padding-right: 0;
+                    }
                     .nav-link{
                         color: #ffffff;
                         user-select: none;
